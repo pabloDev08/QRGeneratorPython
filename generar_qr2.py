@@ -18,7 +18,7 @@ def generate_qr_code(text,file_name):
     print(f"QR code guardado como {file_name}")
 
 if __name__ == "__main__":
-    text = input("Introduce un texto o una URL para generar el código QR")
-    file_name = input("Introduce el nombre del código QR que contenga SIEMPRE la extensión .png")
+    text = input("Introduce un texto o una URL para generar el código QR: ")
+    file_name = input("Introduce el nombre del código QR que contenga SIEMPRE la extensión .png: ")
     generate_qr_code(text,file_name)
 
